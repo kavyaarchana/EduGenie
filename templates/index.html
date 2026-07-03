@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EduGenie</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📚 EduGenie</h1>
+    <p>Your AI Learning Assistant</p>
+
+    <form action="/process" method="post">
+
+        <label><b>Select Task</b></label>
+        <br><br>
+
+        <select name="task" required>
+            <option value="qna">Question Answering</option>
+            <option value="explanation">Concept Explanation</option>
+            <option value="quiz">Quiz Generation</option>
+            <option value="summary">Text Summarization</option>
+            <option value="learning_path">Learning Path Recommendation</option>
+        </select>
+
+        <br><br>
+
+        <textarea
+            name="question"
+            placeholder="Enter your topic or question..."
+            required>{{ question if question else "" }}</textarea>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    {% if answer %}
+        <h2>Result</h2>
+        <div id="answer">
+            {{ answer }}
+        </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
