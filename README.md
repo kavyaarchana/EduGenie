@@ -31,49 +31,48 @@ EduGenie/
 ├── app/
 ├── static/
 ├── templates/
-├── venv/
-├── .env
-├── requirements.txt
 ├── README.md
-└── edugenie.db
+├── requirements.txt
+└── .gitignore
 ```
 
 ## Installation
 
 1. Clone the repository.
+
 2. Create a virtual environment.
 
-```
+```bash
 python -m venv venv
 ```
 
 3. Activate the virtual environment.
 
-Windows PowerShell:
+**Windows PowerShell**
 
-```
+```bash
 .\venv\Scripts\Activate.ps1
 ```
 
-4. Install dependencies.
+4. Install the required dependencies.
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-5. Add your Gemini API Key in the `.env` file.
+5. Create a `.env` file and add your Gemini API key.
 
-```
+```text
 GEMINI_API_KEY=YOUR_API_KEY
 ```
 
-6. Run the project.
+6. Run the application.
 
-```
+```bash
 uvicorn app.main:app --reload
 ```
 
-7. Open your browser.
+7. Open your browser and visit:
 
 ```
 http://127.0.0.1:8000
@@ -89,4 +88,4 @@ http://127.0.0.1:8000
 
 ## Author
 
-Kavya Nallamilli
+**Kavya Nallamilli**
