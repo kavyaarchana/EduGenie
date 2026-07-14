@@ -78,14 +78,6 @@ uvicorn app.main:app --reload
 http://127.0.0.1:8000
 ```
 
-## Future Enhancements
-
-- Student Progress Tracking
-- Voice-based Learning
-- Multilingual Support
-- LMS Integration
-- Mobile Application Support
-
 ## Author
 
 **Kavya Nallamilli**
