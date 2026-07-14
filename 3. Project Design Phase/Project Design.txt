@@ -1,0 +1,48 @@
+Project Name: EduGenie
+
+System Design:
+
+EduGenie is an AI-powered learning assistant designed with a simple and efficient architecture.
+
+Architecture:
+
+1. Frontend Layer:
+- Provides a user-friendly interface.
+- Allows users to enter queries and view AI responses.
+- Technologies used: HTML, CSS, JavaScript.
+
+2. Backend Layer:
+- Handles user requests and application logic.
+- Connects frontend with AI services.
+- Technology used: FastAPI.
+
+3. AI Processing Layer:
+- Processes user queries and generates intelligent responses.
+- Uses Google Gemini API and local AI models.
+
+4. Database Layer:
+- Stores user queries, AI responses, quiz data, summaries, and learning paths.
+- Database used: SQLite.
+
+
+Main Modules:
+
+1. Question Answer Module
+- Answers user questions using AI.
+
+2. Explanation Module
+- Provides simplified explanations for concepts.
+
+3. Quiz Generation Module
+- Creates quizzes for better learning.
+
+4. Summary Module
+- Generates short summaries of content.
+
+5. Learning Path Module
+- Provides personalized learning recommendations.
+
+
+Data Flow:
+
+User Input → Frontend → FastAPI Backend → AI Model Processing → Database Storage → Response Display

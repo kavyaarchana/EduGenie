@@ -1,0 +1,52 @@
+Project Name: EduGenie
+
+Testing Report
+
+Objective:
+To verify that all features of the EduGenie application are working correctly and providing expected results.
+
+
+Testing Performed:
+
+1. Application Launch Testing:
+- Verified that the FastAPI server starts successfully.
+- Checked frontend and backend connectivity.
+
+
+2. AI Explanation Testing:
+- Input: Learning topic or concept.
+- Expected Result: AI should provide a simple explanation.
+- Result: Passed.
+
+
+3. Question Answer Testing:
+- Input: User questions.
+- Expected Result: AI should generate relevant answers.
+- Result: Passed.
+
+
+4. Quiz Generation Testing:
+- Input: Topic for quiz creation.
+- Expected Result: AI should generate quiz questions.
+- Result: Passed.
+
+
+5. Summary Generation Testing:
+- Input: Learning content.
+- Expected Result: AI should generate a concise summary.
+- Result: Passed.
+
+
+6. Learning Path Testing:
+- Input: Learning goal/topic.
+- Expected Result: AI should provide a structured learning path.
+- Result: Passed.
+
+
+Database Testing:
+- Verified storage of user queries and AI responses.
+- Result: Passed.
+
+
+Final Testing Result:
+All implemented features were tested successfully and the EduGenie application is working as expected.

@@ -1,0 +1,53 @@
+Project Name: EduGenie
+
+Project Planning:
+
+Objective:
+To develop an AI-powered educational assistant that helps students learn through AI-based explanations, question answering, quiz generation, summarization, and personalized learning paths.
+
+
+Development Timeline:
+
+Phase 1: Brainstorming & Ideation
+Duration: Week 1
+Activities:
+- Identified the problem and project idea.
+- Defined the purpose of EduGenie.
+
+
+Phase 2: Requirement Analysis
+Duration: Week 1
+Activities:
+- Collected functional and non-functional requirements.
+- Selected required technologies.
+
+
+Phase 3: System Design
+Duration: Week 2
+Activities:
+- Designed system architecture.
+- Created database structure and module design.
+
+
+Phase 4: Development
+Duration: Week 3 - Week 5
+Activities:
+- Developed FastAPI backend.
+- Created frontend interface.
+- Integrated AI models.
+- Implemented learning features.
+
+
+Phase 5: Testing
+Duration: Week 6
+Activities:
+- Tested all AI features.
+- Fixed errors and improved performance.
+
+
+Phase 6: Documentation & Demonstration
+Duration: Week 7
+Activities:
+- Prepared project documentation.
+- Created project demonstration.
+- Final project review.

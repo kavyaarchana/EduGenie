@@ -1,0 +1,34 @@
+Project Name: EduGenie
+
+Functional Requirements:
+
+1. User should be able to enter learning-related queries.
+2. System should provide AI-generated explanations for user questions.
+3. System should support question and answer functionality.
+4. System should generate quizzes based on the given topics.
+5. System should summarize learning content.
+6. System should provide personalized learning paths for students.
+7. System should store user queries and AI responses.
+
+Non-Functional Requirements:
+
+1. The system should provide fast AI responses.
+2. The interface should be simple and user-friendly.
+3. The application should be reliable and easy to use.
+4. The system should maintain data security.
+5. The application should be scalable for future improvements.
+
+Hardware Requirements:
+
+- Minimum 4GB RAM
+- Processor: Intel i3 or above
+- Internet connection for cloud AI services
+
+Software Requirements:
+
+- Operating System: Windows/Linux/MacOS
+- Programming Language: Python
+- Backend Framework: FastAPI
+- Frontend: HTML, CSS, JavaScript
+- Database: SQLite
+- AI Model: Google Gemini API and Local AI Model

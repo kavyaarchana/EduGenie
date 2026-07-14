@@ -1,0 +1,7 @@
+Project Name: EduGenie
+
+Problem:
+Students need a simple AI assistant for learning and understanding concepts.
+
+Solution:
+EduGenie is an AI-powered educational assistant that helps students with explanations, question answering, quiz generation, summarization, and personalized learning paths.
