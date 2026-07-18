@@ -203,20 +203,6 @@ EduGenie generates a personalized study plan covering beginner, intermediate, an
 
 ---
 
-## 👨‍💻 Developed By
-
-**Project Name:** EduGenie – AI-Powered Educational Assistant
-
-Department of Computer Science and Engineering
-
----
-
-## 📄 License
-
-This project is developed for educational and academic purposes.
-
----
-
 ## ⭐ Acknowledgements
 
 - Google Gemini API
